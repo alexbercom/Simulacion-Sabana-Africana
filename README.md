@@ -20,9 +20,17 @@ La simulación se desarrolla siguiendo las siguientes reglas:
 
 ## 📥 Instalación
 ### 1️⃣ Requisitos previos
-Asegúrate de tener Python 3.8 o superior instalado en tu sistema.
+Asegúrate de tener Python 3.8 o superior instalado en tu sistema. Puedes comprobar tu versión con:
+```bash
+python --version
+```
+
 ### 2️⃣ Clonar el repositorio
-Clona el repositorio en tu máquina local.
+Clona el repositorio en tu máquina local con:
+```bash
+git clone https://github.com/alexbercom/Simulacion-Sabana-Africana.git
+cd Simulacion-Sabana-Africana
+```
 
 ## ▶️ Ejecución del programa
 Para ejecutar la simulación, simplemente ejecuta el archivo main.py
