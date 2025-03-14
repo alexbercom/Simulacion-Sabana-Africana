@@ -43,25 +43,26 @@ El programa solicitará la configuración del juego:
 Luego, la simulación comenzará mostrando el estado inicial del tablero y los movimientos de los animales hasta que una manada gane.
 
 ## 🏗️ Estructura del Proyecto
-Animal/: Clases base y específicas para cada tipo de animal:
-  - Animal: Clase base para que todos los tipos de animales hereden de ella.
-  - Depredador: Clase base para que Leon y Hiena hereden de ella.
-  - León: Clase para el comportamiento de los leones.
-  - Hiena: Clase para el comportamiento de las hienas.
-  - Cebra: Clase para el comportamiento de las cebras.
-
-Manada/: Manejo de los diferentes tipos de manadas:
-  - Manada: Clase base para que las diferentes manadas hereden de ella.
-  - ManadaLeones
-  - ManadaHienas
-  - ManadaCebras
-
-Juego/: Clases relacionadas con el funcionamiento del juego:
-  - Casilla: Representación del tablero con bloqueos para evitar movimientos inválidos.
-  - Configuracion: Configuración del juego.
-  - Juego: Lógica principal del juego, manejo del tablero y flujo de la simulación.
-
-main: Archivo principal que inicia la simulación.
+```bash
+.
+│── 📂 Animal/                  # Clases base y específicas para cada tipo de animal
+│   ├── Animal.py                  # Clase base para que todos los tipos de animales hereden de ella
+│   ├── Depredador.py              # Clase base para que Leon y Hiena hereden de ella
+│   ├── Leon.py                    # Clase para el comportamiento de los leones
+│   ├── Hiena.py                   # Clase para el comportamiento de las hienas
+│   ├── Cebra.py                   # Clase para el comportamiento de las cebras
+│── 📂 Manada/                  # Manejo de los diferentes tipos de manadas
+│   ├── Manada.py                  # Clase base para que las diferentes manadas hereden de ella
+│   ├── ManadaLeones.py            # Clase para manejar las manadas de leones
+│   ├── ManadaHienas.py            # Clase para manejar las manadas de hienas
+│   ├── ManadaCebras.py            # Clase para manejar las manadas de cebras
+│── 📂 Juego/                   # Clases relacionadas con el funcionamiento del juego
+│   ├── Casilla.py                 # Representación del tablero con bloqueos para evitar movimientos inválidos
+│   ├── Configuracion.py           # Configuración del juego
+│   ├── Juego.py                   # Lógica principal del juego, manejo del tablero y flujo de la simulación
+│── main.py
+└── README.md
+```
 
 ## ⚙️ Funcionamiento del Programa
 1. Configuración Inicial:
